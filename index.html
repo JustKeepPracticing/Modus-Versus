@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Modus Versus</title>
+    </head>
+    <body>
+        <header>
+            <div class="header_wrapper">
+                <div class="logo">
+                    <img src="pics/logo.png" alt="">
+                </div><!-- logo ends -->
+                <div class="menu_search_part">
+                    <ul class="menu hidden-xs">
+                        <li>
+                            <a class="text-uppercase" href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="about_us.html">about</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="services.html">services</a>
+                        </li>
+                        <li class="portfolio">
+                            <a id="portfolio" class="text-uppercase" href="portfolio.html"><i class="fa fa-angle-down" aria-hidden="true"></i>portfolio</a>
+                            <div class="portfolio-block">
+                                <ul class="portfolio-items dl-submenu">
+                                    <li class="dl-back"><a href="#">back</a></li>
+                                    <li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio 2 column page</a></li>
+                                    <li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio 2 column page</a></li>
+                                    <li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio 2 column page</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="blog.html">blog</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="features.html">features</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="contacts.html">contacts</a>
+                        </li>
+                    </ul>
+                    <div id="dl-menu" class="dl-menuwrapper visible-xs">
+                        <button><a href="http://www.jqueryscript.net/menu/">Menu</a></button>
+                        <ul class="menu dl-menu">
+                            <li>
+                                <a class="text-uppercase" href="index.html">home</a>
+                            </li>
+                            <li>
+                                <a class="text-uppercase" href="about_us.html">about</a>
+                            </li>
+                            <li>
+                                <a class="text-uppercase" href="services.html">services</a>
+                            </li>
+                            <li class="portfolio">
+                                <a id="portfolio" class="text-uppercase" href="portfolio.html"><i class="fa fa-angle-down" aria-hidden="true"></i>portfolio</a>
+                                <div class="portfolio-block">
+                                    <ul class="portfolio-items dl-submenu">
+                                        <li class="dl-back"><a href="#">back</a></li>
+                                        <li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio 2 column page</a></li>
+                                        <li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio 2 column page</a></li>
+                                        <li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio 2 column page</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="blog" class="text-uppercase" href="blog.html">blog</a>
+                            </li>
+                            <li>
+                                <a id="features" class="text-uppercase" href="features.html">features</a>
+                            </li>
+                            <li>
+                                <a id="contacts" class="text-uppercase" href="contacts.html">contacts</a>
+                            </li>
+                        </ul><!-- ul ends -->
+                    </div>
+                    <div id="SearCh" class="search_icon visible-lg visible-md visible-sm hidden-xs">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <div id="searchInput" class="search-input">
+                            <input placeholder="Search the site">
+                        </div>
+                    </div>
+                </div><!-- menu_search_part ends-->
+            </div>
+        </header><!-- header ends-->
+        <div id="carousel-example-generic" class="carousel slide homepage-slider" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="pics/croatia-wallpaper2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <div class="vestibulum">
+                            <p class="text-uppercase">vestibulum</p>
+                        </div>
+                        <div class="vesti-info">
+                            <p>Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="pics/croatia-b.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="pics/croatia-beauty.jpg" alt="">
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="pager-left" aria-hidden="true"><i class="fa fa-angle-double-left"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="pager-right" aria-hidden="true"><i class="fa fa-angle-double-right"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <main class="home">
+            <div class="content">
+                <div class="container">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <div class="services-section">
+                        <div class="well homepage-well text-left">
+                            <h3 class="text-capitalize">Some of our top services</h3>
+                            <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </p>
+                            <a class="view-more text-uppercase" href="#">view more</a>
+                        </div>
+                        <div class="row example-services">
+                            <div class="columns">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="first-column">
+                                        <i class="fa fa-thumbs-o-up text-center" aria-hidden="true"></i>
+                                        <h5 class="text-center">SUSPENDISSE</h5>
+                                        <p>Quisque id tellus quis risus vehicula<br> vehicula ut turpis. In eros nulla, placerat<br> vitae at, vehicula ut nunc.</p>
+                                        <a href="#" class="text-center">read more</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="second-column">
+                                        <i class="fa fa-key" aria-hidden="true"></i>
+                                        <h5 class="text-center">MAECENAS</h5>
+                                        <p>Ut eleifend libero sed neque rhoncus<br> consequat. Maecenas tincidunt, augue<br> et rutrum condimentum, libero lectus<br> mattis orci, ut commodo.</p>
+                                        <a href="#" class="text-center">read more</a>
+                                    </div>
+                                </div>
+                                <div class="clearfix visible-xs visible-sm hidden-md hidden-lg"></div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="third-column">
+                                        <i class="fa fa-flag" aria-hidden="true"></i>
+                                        <h5 class="text-center">ALIQUAM </h5>
+                                        <p>Vivamus eget ante bibendum arcu<br> vehicula ultricies. Integer venenatis<br> mattis nisl, vitae pulvinar dui tempor<br> non. </p>
+                                        <a href="#" class="text-center">read more</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="fourth-column">
+                                        <i class="fa fa-flask" aria-hidden="true"></i>
+                                        <h5 class="text-center">HABITASSE</h5>
+                                        <p>Astehicula ultricies. Integer venenatis<br> mattis nisl, vitae pulvinar dui tempor non.</p>
+                                        <a href="#" class="text-center">read more</a>
+                                    </div>
+                                </div>
+                            </div><!---columns end-->
+                        </div><!-- example-services end-->
+                    </div><!--services-section ends-->
+                </div>
+                <div class="introduction-section">
+                    <div class="container">
+                        <h1 class="text-center text-uppercase">why modus versus?</h1>
+                        <p class="text-center">Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</p>
+                        <div class="img_containers">
+                            <div class="left-pic">
+                                <div class="img-left-container">
+                                    <div class="mini-header">
+                                        <div class="owl_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <i class="fa fa-window-minimize" aria-hidden="true"></i>
+                                    </div><!-- mini-header -->
+                                    <div class="your_img_left"></div>
+                                </div><!--img-left-container ends-->
+                            </div>
+                            <div class="img-center-container">
+                                <div class="mini-header">
+                                    <div class="owl_pagination">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>
+                                </div><!-- mini-header -->
+                                <div class="your_img_center"></div>
+                            </div><!--img-center-container ends-->
+                            <div class="right-pic">
+                                <div class="img-right-container">
+                                    <div class="mini-header">
+                                        <div class="owl_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <i class="fa fa-window-minimize" aria-hidden="true"></i>
+                                    </div><!-- mini-header -->
+                                    <div class="your_img_right"></div>
+                                </div><!--img-right-container ends-->
+                            </div>
+                        </div><!---img_containers ends-->
+                    </div><!--container ends-->
+                </div><!-- introduction-section ends -->
+                <div class="information-section">
+                    <div class="container">
+                        <div class="some-info-block">
+                            <div class="left-info-block col-md-3">
+                                <h5>Why Choose Us ?</h5>
+                                <p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                Quisque at massa ipsum</p>
+                                <p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    Maecenas a lorem augue, egestas</p>
+                                <p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    Cras vitae felis at lacus eleifend</p>
+                                <p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    Nulla ac massa at dolor</p>
+                                <p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    Nulla ac massa at dolor</p>
+                                <p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    Condimentum eleifend vitae vitae</p>
+                            </div><!-- left-info-block ends -->
+                            <div class="center-info-block col-md-6">
+                                <span>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <a href="#"><u>vehicula mattis</u></a>. Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</span>
+                                <div class="progress-bar-section row">
+                                    <div class="progress_bar col-md-3 col-sm-3 col-xs-6">
+                                        <div class="barOverflow">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <span>50</span>
+                                        <p class="text-uppercase">SUSPENDISSE</p>
+                                    </div>
+                                    <div class="progress_bar col-md-3 col-sm-3 col-xs-6">
+                                        <div class="barOverflow">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <span>70</span>
+                                        <p class="text-uppercase">MAECENAS</p>
+                                    </div>
+                                    <div class="progress_bar col-md-3 col-sm-3 col-xs-6">
+                                        <div class="barOverflow">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <span>80</span>
+                                        <p class="text-uppercase">ALIQUAM</p>
+                                    </div>
+                                    <div class="progress_bar col-md-3 col-sm-3 col-xs-6">
+                                        <div class="barOverflow">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <span>100</span>
+                                        <p class="text-uppercase">HABITASSE</p>
+                                    </div>
+                                </div>
+                            </div><!-- center-info-block ends-->
+                            <div class="right-info-block col-md-3">
+                                <div class="client-info">
+                                    <h5>What Client’s Say ?</h5>
+                                    <div class="client-info-box">
+                                        <em>Curabitur quis nisl in leo euismod<br> venenatis eu in diam. Etiam auctor diam<br> pellentesque lectus vehicula mattis. Nulla<br> ac massa at dolor condimentum</em>
+                                    </div>
+                                    <p class="client-name text-capitalize">Jhon Doe</p>
+                                </div>
+                            </div>
+                        </div><!--some-info-block ends-->
+                    </div><!--container ends-->
+                </div><!-- row -->
+                <div class="happy-clients">
+                    <div class="container">
+                        <div class="clients-slider">
+                            <div class="col-md-2">
+                                <span class="our_happy_clients">Our Happy Clients</span>
+                            </div>
+                            <div class="line_slider col-md-8 col-xs-10">
+                                <span class="small-circle"></span>
+                                <span class="line"></span>
+                            </div>
+                            <div class="angles col-md-2 col-xs-2">
+                                <span id="left_angle"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                                <span id="right_angle"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class="clearfix hidden-lg visible-xs"></div>
+                        <div class="row client-info-boxes">
+                            <div class="flex-wrapping">
+                                <div class="col-md-2 col-sm-3 col-xs-6 d-b">
+                                    <div class="client-frame"></div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-6 d-b">
+                                    <div class="client-frame"></div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-6 d-b">
+                                    <div class="client-frame"></div>
+                                </div>
+                                <div class="clearfix hidden-lg visible-sm"></div>
+                                <div class="col-md-2 col-sm-3 col-xs-6 d-b">
+                                    <div class="client-frame"></div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-6 d-b">
+                                    <div class="client-frame"></div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-6 d-b">
+                                    <div class="client-frame"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--container ends-->
+                </div> <!-- happy-clients ends -->
+            </div><!-- content ends -->
+        </main><!-- main ends -->
+        <footer>
+            <div class="footer_stuff container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 col-sm-8">
+                        <div class="footer_logo">
+                            <img src="pics/logo.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam<br> viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .</p>
+                        <div class="contact-info">
+                            <span class="phone">Phone:</span>
+                            <span class="phone_number">182 2569 5896</span><br>
+                            <span class="email">e-mail:</span>
+                            <span class="email-info">info@modu.versus</span>
+                        </div><!-- contact-info ends -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <h4 class="company">Company</h4>
+                        <ul class="company-section">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">About</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">FAQ</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Contact</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Terms</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Privacy</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Testimonials</a></li>
+                        </ul><!-- company-section ends -->
+                    </div>
+                    <div class="col-md-2 col-xs-6 col-sm-6">
+                        <h4 class="community">Community</h4>
+                        <ul class="community-section">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Blog</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Forum</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Support</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Newsletter</a></li>
+                        </ul><!-- community-section ends-->
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <h4 class="blog-info"><span class="from_the">from the</span> <span class=" blog text-uppercase">blog</span></h4>
+                        <div class="blog-block">
+                            <div class="users-block">
+                                <div class="blog-user-frame">
+                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="users-info">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p>26 May, 2013</p>
+                                </div>
+                            </div>
+                            <div class="users-block">
+                                <div class="blog-user-frame">
+                                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="users-info">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <p>26 May, 2013</p>
+                                </div>
+                            </div>
+                        </div><!-- blog-block ends -->
+                    </div>
+                </div><!-- row ends-->
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="modus-versus">
+                        <p>2013  ModusVersus</p>
+                    </div>
+                    <div class="social-info">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="pics/facebook-icon.png" alt=""></a>
+                        <a href="https://plus.google.com/" target="_blank"><img src="pics/g-icon.png" alt=""></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="pics/twitter-icon.png" alt=""></a>
+                        <a href="#"><img src="pics/rss-icon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/modernizr.custom.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.dlmenu.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
